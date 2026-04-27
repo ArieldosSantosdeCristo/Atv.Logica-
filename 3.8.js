@@ -21,6 +21,8 @@ async function main() {
     console.log(A);
     console.log(B);
 
+    //Verifica as posições e atutomaticamente faz a soma e passando para o proximo
+    
     for(let i= 1; i<=30; i++){
         let proximo= A+B
         console.log(proximo);
